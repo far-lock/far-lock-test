@@ -1,0 +1,27 @@
+{
+  "name": "far-lock-test",
+  "version": "0.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format-code": "prettier --write . --ignore-unknown",
+    "lint-code": "prettier --check .",
+    "lint-commit": "commitlint --from=HEAD~1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/far-lock/far-lock-test.git"
+  },
+  "author": "Andrea Stagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/far-lock/far-lock-test/issues"
+  },
+  "homepage": "https://github.com/far-lock/far-lock-test#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "prettier": "2.8.7"
+  }
+}
